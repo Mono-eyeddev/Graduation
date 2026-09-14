@@ -11,7 +11,7 @@ export const event = {
   // ISO date/time used by the countdown. Update this when the real time is confirmed.
   dateISO: "2026-09-19T14:00:00",
   dateDisplay: "19 September 2026",
-  timeDisplay: "2:00 PM",
+  timeDisplay: "12:00 Noon",
 
   welcomeMessage:
     "With gratitude and joy, I invite you to celebrate this special milestone with me — a chapter closed, and another one just beginning.",
@@ -22,17 +22,17 @@ export const event = {
   venue: {
     name: "Meru,Kaaga(Mpakone)",
     address: "Click to get directions",
-    mapsUrl: "https://maps.app.goo.gl/8jqyiudD5hPh7TkT9", 
+    mapsUrl: "https://maps.app.goo.gl/13uYvmQXqq38E4jF6", 
     mapsEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295.79443092956484!2d37.658031997883384!3d0.06750307082078265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17882217d8f3ce41%3A0x4102381bbebacc7b!2sMpakone%20-%20Kaaga!5e1!3m2!1sen!2ske!4v1789402826590!5m2!1sen!2ske",
+    "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d297.7425827582432!2d37.6581825!3d0.0675514!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2ske!4v1789418764285!5m2!1sen!2ske"
   },
 
   contact: {
     rsvpNote:
       "Kindly let us know if you'll be joining — it helps us prepare a celebration worthy of the occasion.",
-    email: "hello@example.com",
-    phone: "+254 700 000 000",
-    whatsappUrl: "https://wa.me/254700000000",
+    email: "Sajaadiqbalkarim7@gmail.com",
+    phone: "+254722813903/0115760476",
+    whatsappUrl: "https://wa.me/2547115760476",
   },
 
   heroImage: "images/graduation.jpg",
@@ -48,15 +48,67 @@ export const event = {
   ],
 };
 
-// Programme timeline — edit this single array to change the run of show.
 export const programme = [
-  { time: "2:00 PM", title: "Guest Arrival", note: "Welcome drinks & seating" },
-  { time: "2:30 PM", title: "Welcome & Opening", note: "Opening remarks" },
-  { time: "3:00 PM", title: "Graduation Celebration", note: "The main ceremony" },
-  { time: "4:00 PM", title: "Speeches", note: "Words from family & friends" },
-  { time: "4:30 PM", title: "Cake Cutting", note: "A sweet milestone moment" },
-  { time: "5:00 PM", title: "Photography & Social Time", note: "Portraits & mingling" },
-  { time: "6:00 PM", title: "Closing", note: "Farewell & thank yous" },
+  {
+    time: "1:00 – 2:00 PM",
+    title: "Guest Arrival & Luncheon",
+    note: "Greetings, settling in & food is served",
+    details: [
+      "Guests arrive",
+      "Greetings & settling in",
+      "Food is served",
+    ],
+  },
+  {
+    time: "2:00 – 2:20 PM",
+    title: "Opening of the Ceremony",
+    note: "Welcoming the celebration",
+    details: [
+      "Welcoming remarks by the graduand & Mum",
+      "Opening prayers",
+      "Programme overview",
+    ],
+  },
+  {
+    time: "2:20 – 3:00 PM",
+    title: "Introduction of the Graduand",
+    note: "A few words from those closest to the journey",
+    details: [
+      "Congratulatory speech — Family member 1",
+      "Congratulatory speech — Family member 2",
+      "Congratulatory speech — Friend",
+      "Speech by the graduand",
+    ],
+  },
+  {
+    time: "3:00 – 4:00 PM",
+    title: "Gift Presentation & Photography",
+    note: "Celebrating the milestone with family & friends",
+    details: [
+      "Gift presentation",
+      "Photo session with the graduand",
+    ],
+  },
+  {
+    time: "4:00 – 5:30 PM",
+    title: "Entertainment",
+    note: "Let the fun begin",
+    details: [
+      "Fruits & refreshments",
+      "Competitive games",
+      "Music & social time",
+    ],
+  },
+  {
+    time: "5:30 PM",
+    title: "Closing Remarks",
+    note: "Until the next chapter",
+    details: [
+      "Vote of thanks",
+      "Closing prayers",
+      "Guests depart",
+    ],
+  },
 ];
 
 // Event detail cards shown in the Details section.
