@@ -377,7 +377,7 @@ Error generating stack: `+e.message+`
           rounded-full
           bg-gold/[0.035]
           blur-[100px]
-        `,"aria-hidden":`true`}),(0,B.jsxs)(`div`,{className:`container-narrow relative z-10 text-center`,children:[(0,B.jsx)(U.span,{initial:{opacity:0,scaleX:0},whileInView:{opacity:1,scaleX:1},viewport:{once:!0},transition:{duration:.7},className:`mx-auto mb-10 block h-px w-12 origin-center bg-gold/50`}),(0,B.jsx)(U.p,{initial:{opacity:0,y:14},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.5},transition:{duration:.8},className:`mx-auto max-w-xl font-display text-2xl italic leading-relaxed text-ivory sm:text-3xl`,children:X.thankYouMessage})]})]})}var xd=`0115760476`,Sd=[500,1e3,2e3,5e3];function Cd(){let[e,t]=(0,_.useState)(1e3),[n,r]=(0,_.useState)(``),[i,a]=(0,_.useState)(!1),[o,s]=(0,_.useState)(!1),c=n.trim()===``?e:Number(n),l=e=>{t(e),r(``)},u=async()=>{try{await navigator.clipboard.writeText(xd)}catch{let e=document.createElement(`input`);e.value=xd,document.body.appendChild(e),e.select(),document.execCommand(`copy`),e.remove()}a(!0),setTimeout(()=>{a(!1)},2e3)};return(0,B.jsxs)(`section`,{className:`relative overflow-hidden bg-charcoal-deep py-24 sm:py-32 md:py-40`,children:[(0,B.jsx)(`div`,{className:`\r
+        `,"aria-hidden":`true`}),(0,B.jsxs)(`div`,{className:`container-narrow relative z-10 text-center`,children:[(0,B.jsx)(U.span,{initial:{opacity:0,scaleX:0},whileInView:{opacity:1,scaleX:1},viewport:{once:!0},transition:{duration:.7},className:`mx-auto mb-10 block h-px w-12 origin-center bg-gold/50`}),(0,B.jsx)(U.p,{initial:{opacity:0,y:14},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.5},transition:{duration:.8},className:`mx-auto max-w-xl font-display text-2xl italic leading-relaxed text-ivory sm:text-3xl`,children:X.thankYouMessage})]})]})}var xd=`0115760476`,Sd=[500,1e3,2e3,5e3];function Cd(){let[e,t]=(0,_.useState)(1e3),[n,r]=(0,_.useState)(``),[i,a]=(0,_.useState)(!1),[o,s]=(0,_.useState)(!1),[c,l]=(0,_.useState)(!1),u=n.trim()===``?e:Number(n),d=e=>{t(e),r(``)},f=async()=>{try{await navigator.clipboard.writeText(xd)}catch{let e=document.createElement(`input`);e.value=xd,document.body.appendChild(e),e.select(),document.execCommand(`copy`),e.remove()}a(!0),setTimeout(()=>{a(!1)},2e3)},p=async()=>{await f(),l(!0)},m=()=>{l(!1),s(!0)};return(0,B.jsxs)(`section`,{className:`relative overflow-hidden bg-charcoal-deep py-24 sm:py-32 md:py-40`,children:[(0,B.jsx)(`div`,{className:`\r
           pointer-events-none\r
           absolute\r
           left-1/2\r
@@ -477,7 +477,7 @@ Error generating stack: `+e.message+`
                     uppercase\r
                     tracking-[0.3em]\r
                     text-gold-light\r
-                  `,children:`M-Pesa Gift`})]}),(0,B.jsxs)(`div`,{className:`mt-8`,children:[(0,B.jsx)(`p`,{className:`mb-3 text-center text-[0.65rem] uppercase tracking-[0.25em] text-stone-light`,children:`Choose an amount`}),(0,B.jsx)(`div`,{className:`grid grid-cols-4 gap-2`,children:Sd.map(t=>{let r=!n&&e===t;return(0,B.jsxs)(U.button,{type:`button`,whileTap:{scale:.94},onClick:()=>l(t),className:`
+                  `,children:`M-Pesa Gift`})]}),(0,B.jsxs)(`div`,{className:`mt-8`,children:[(0,B.jsx)(`p`,{className:`mb-3 text-center text-[0.65rem] uppercase tracking-[0.25em] text-stone-light`,children:`Choose an amount`}),(0,B.jsx)(`div`,{className:`grid grid-cols-4 gap-2`,children:Sd.map(t=>{let r=!n&&e===t;return(0,B.jsxs)(U.button,{type:`button`,whileTap:{scale:.94},onClick:()=>d(t),className:`
                           border
                           px-2
                           py-3
@@ -501,7 +501,7 @@ Error generating stack: `+e.message+`
                       transition\r
                       focus:border-gold/40\r
                       focus:bg-white/[0.04]\r
-                    `})})]}),(0,B.jsxs)(`div`,{className:`mt-8 text-center`,children:[(0,B.jsx)(`p`,{className:`text-xs uppercase tracking-[0.25em] text-stone-light`,children:`Send to`}),(0,B.jsx)(`p`,{className:`mt-2 font-display text-xl text-ivory`,children:`Sajaad Iqbal`}),(0,B.jsx)(`p`,{className:`mt-1 font-display text-3xl tracking-[0.08em] text-gold-light sm:text-4xl`,children:`0115 760 476`})]}),(0,B.jsx)(U.button,{type:`button`,onClick:u,whileTap:{scale:.96},className:`\r
+                    `})})]}),(0,B.jsxs)(`div`,{className:`mt-8 text-center`,children:[(0,B.jsx)(`p`,{className:`text-xs uppercase tracking-[0.25em] text-stone-light`,children:`Send to`}),(0,B.jsx)(`p`,{className:`mt-2 font-display text-xl text-ivory`,children:`Sajaad Iqbal`}),(0,B.jsx)(`p`,{className:`mt-1 font-display text-3xl tracking-[0.08em] text-gold-light sm:text-4xl`,children:`0115 760 476`})]}),(0,B.jsx)(U.button,{type:`button`,onClick:f,whileTap:{scale:.96},className:`\r
                   mx-auto\r
                   mt-5\r
                   flex\r
@@ -514,7 +514,7 @@ Error generating stack: `+e.message+`
                   text-stone-light\r
                   transition-colors\r
                   hover:text-gold-light\r
-                `,children:i?(0,B.jsxs)(B.Fragment,{children:[(0,B.jsx)(Gu,{size:14}),`Number copied`]}):(0,B.jsxs)(B.Fragment,{children:[(0,B.jsx)(Zu,{size:14}),`Copy number`]})}),(0,B.jsxs)(U.button,{type:`button`,onClick:()=>{u(),window.location.href=`sms:?body=${encodeURIComponent(`M-Pesa Gift: KES ${c}\nSend to: Sajaad Iqbal\nNumber: ${xd}`)}`},disabled:!c||c<=0,whileTap:{scale:.97},className:`\r
+                `,children:i?(0,B.jsxs)(B.Fragment,{children:[(0,B.jsx)(Gu,{size:14}),`Number copied`]}):(0,B.jsxs)(B.Fragment,{children:[(0,B.jsx)(Zu,{size:14}),`Copy number`]})}),(0,B.jsxs)(U.button,{type:`button`,onClick:p,disabled:!u||u<=0,whileTap:{scale:.97},className:`\r
                   mt-7\r
                   flex\r
                   w-full\r
@@ -538,7 +538,7 @@ Error generating stack: `+e.message+`
                   hover:shadow-[0_0_35px_rgba(212,175,55,0.12)]\r
                   disabled:cursor-not-allowed\r
                   disabled:opacity-40\r
-                `,children:[(0,B.jsx)(Y,{size:16}),`Send KES`,` `,c?c.toLocaleString():`0`]}),(0,B.jsx)(`div`,{className:`mt-6 border-t border-white/[0.07] pt-6 text-center`,children:(0,B.jsxs)(`p`,{className:`text-xs leading-6 text-stone-light`,children:[`Lipa na M-Pesa → Send Money →`,` `,(0,B.jsx)(`span`,{className:`text-ivory/80`,children:`0115 760 476`})]})}),(0,B.jsx)(`div`,{className:`mt-5`,children:(0,B.jsx)(Ac,{mode:`wait`,children:o?(0,B.jsxs)(U.div,{initial:{opacity:0,scale:.85,y:8},animate:{opacity:1,scale:1,y:0},className:`flex flex-col items-center`,children:[(0,B.jsx)(`div`,{className:`\r
+                `,children:[(0,B.jsx)(Y,{size:16}),`Send KES`,` `,u?u.toLocaleString():`0`]}),(0,B.jsx)(`div`,{className:`mt-6 border-t border-white/[0.07] pt-6 text-center`,children:(0,B.jsxs)(`p`,{className:`text-xs leading-6 text-stone-light`,children:[`Lipa na M-Pesa → Send Money →`,` `,(0,B.jsx)(`span`,{className:`text-ivory/80`,children:`0115 760 476`})]})}),(0,B.jsx)(`div`,{className:`mt-5`,children:(0,B.jsx)(Ac,{mode:`wait`,children:o?(0,B.jsxs)(U.div,{initial:{opacity:0,scale:.85,y:8},animate:{opacity:1,scale:1,y:0},className:`flex flex-col items-center`,children:[(0,B.jsx)(`div`,{className:`\r
                           flex\r
                           h-10\r
                           w-10\r
@@ -549,7 +549,7 @@ Error generating stack: `+e.message+`
                           border-gold/30\r
                           bg-gold/10\r
                           text-gold-light\r
-                        `,children:(0,B.jsx)(nd,{size:17,strokeWidth:1.4})}),(0,B.jsx)(`p`,{className:`mt-3 text-xs text-gold-light`,children:`Thank you for your kindness.`})]},`success`):(0,B.jsxs)(U.button,{type:`button`,onClick:()=>{s(!0)},initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:`\r
+                        `,children:(0,B.jsx)(nd,{size:17,strokeWidth:1.4})}),(0,B.jsx)(`p`,{className:`mt-3 text-xs text-gold-light`,children:`Thank you for your kindness.`})]},`success`):(0,B.jsxs)(U.button,{type:`button`,onClick:m,initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:`\r
                         mx-auto\r
                         flex\r
                         items-center\r
@@ -560,7 +560,90 @@ Error generating stack: `+e.message+`
                         text-stone-light/70\r
                         transition-colors\r
                         hover:text-gold-light\r
-                      `,children:[(0,B.jsx)(Gu,{size:13}),`I've sent my gift`]},`confirm`)})})]})]})})]})]})}function wd({src:e,alt:t,index:n}){let[r,i]=(0,_.useState)(!1);return(0,B.jsxs)(U.figure,{initial:{opacity:0,y:18},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.3},transition:{duration:.6,delay:n%3*.08,ease:[.22,1,.36,1]},className:`group relative overflow-hidden bg-charcoal-soft ${n%5==0?`sm:row-span-2`:``}`,children:[(0,B.jsx)(`div`,{className:`w-full ${n%5==0?`aspect-[3/4] sm:h-full`:`aspect-[4/3]`}`,children:r?(0,B.jsxs)(`div`,{className:`flex h-full w-full flex-col items-center justify-center gap-2 border border-gold/15 text-gold/40`,children:[(0,B.jsx)($u,{size:26,strokeWidth:1}),(0,B.jsx)(`span`,{className:`text-xs text-stone-light`,children:`Photo coming soon`})]}):(0,B.jsx)(`img`,{src:cd(e),alt:t,loading:`lazy`,decoding:`async`,onError:()=>i(!0),className:`h-full w-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105`})}),(0,B.jsx)(`div`,{className:`pointer-events-none absolute inset-0 bg-gradient-to-t from-charcoal-deep/70 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100`})]})}function Td(){return(0,B.jsx)(`section`,{className:`bg-charcoal py-24 sm:py-28`,children:(0,B.jsxs)(`div`,{className:`container-narrow`,children:[(0,B.jsxs)(U.div,{initial:{opacity:0,y:16},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.4},transition:{duration:.7},className:`mb-14 text-center`,children:[(0,B.jsx)(`p`,{className:`eyebrow`,children:`A few frames`}),(0,B.jsx)(`h2`,{className:`mt-4 font-display text-3xl font-medium text-ivory sm:text-4xl`,children:`Gallery`})]}),(0,B.jsx)(`div`,{className:`grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4`,children:X.gallery.map((e,t)=>(0,B.jsx)(wd,{src:e.src,alt:e.alt,index:t},e.src))})]})})}var Ed=`254115760476`;function Dd(){let[e,t]=(0,_.useState)(null),n=e=>{t(e);let n=e===`yes`?`Hi Sajaad! I'll be joining you for your graduation celebration on ${X.dateDisplay}. Looking forward to celebrating with you! 🎓`:`Hi Sajaad, thank you for the invitation. Unfortunately, I won't be able to attend your graduation celebration. Congratulations! 🎓`,r=`https://wa.me/${Ed}?text=${encodeURIComponent(n)}`;window.open(r,`_blank`,`noopener,noreferrer`)};return(0,B.jsxs)(`section`,{className:`relative overflow-hidden bg-charcoal-soft py-24 sm:py-32 md:py-40`,children:[(0,B.jsx)(`div`,{className:`
+                      `,children:[(0,B.jsx)(Gu,{size:13}),`I've sent my gift`]},`confirm`)})})]})]})})]}),(0,B.jsx)(Ac,{children:c&&(0,B.jsx)(U.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:`\r
+              fixed\r
+              inset-0\r
+              z-[100]\r
+              flex\r
+              items-center\r
+              justify-center\r
+              bg-black/70\r
+              p-5\r
+              backdrop-blur-md\r
+            `,onClick:()=>l(!1),children:(0,B.jsxs)(U.div,{initial:{opacity:0,y:25,scale:.96},animate:{opacity:1,y:0,scale:1},exit:{opacity:0,y:25,scale:.96},transition:{duration:.3,ease:[.22,1,.36,1]},onClick:e=>e.stopPropagation(),className:`\r
+                relative\r
+                w-full\r
+                max-w-md\r
+                overflow-hidden\r
+                rounded-3xl\r
+                border\r
+                border-gold/20\r
+                bg-charcoal-deep\r
+                p-7\r
+                shadow-2xl\r
+              `,children:[(0,B.jsx)(`div`,{className:`\r
+                  pointer-events-none\r
+                  absolute\r
+                  -right-20\r
+                  -top-20\r
+                  h-40\r
+                  w-40\r
+                  rounded-full\r
+                  bg-gold/10\r
+                  blur-3xl\r
+                `}),(0,B.jsxs)(`div`,{className:`relative z-10`,children:[(0,B.jsxs)(`div`,{className:`mb-7 flex items-start justify-between`,children:[(0,B.jsxs)(`div`,{children:[(0,B.jsx)(`p`,{className:`eyebrow mb-2`,children:`M-Pesa Gift`}),(0,B.jsx)(`h3`,{className:`font-display text-2xl text-ivory`,children:`Almost there.`})]}),(0,B.jsx)(`button`,{type:`button`,onClick:()=>l(!1),className:`\r
+                      flex\r
+                      h-9\r
+                      w-9\r
+                      items-center\r
+                      justify-center\r
+                      rounded-full\r
+                      border\r
+                      border-white/10\r
+                      text-ivory/50\r
+                      transition-colors\r
+                      hover:border-gold/30\r
+                      hover:text-gold-light\r
+                    `,"aria-label":`Close`,children:`×`})]}),(0,B.jsxs)(`div`,{className:`\r
+                    mb-5\r
+                    rounded-2xl\r
+                    border\r
+                    border-gold/15\r
+                    bg-white/[0.03]\r
+                    p-5\r
+                    text-center\r
+                  `,children:[(0,B.jsx)(`p`,{className:`mb-1 text-xs uppercase tracking-[0.2em] text-ivory/40`,children:`Gift amount`}),(0,B.jsxs)(`p`,{className:`font-display text-3xl text-gold-light`,children:[`KES `,u.toLocaleString()]})]}),(0,B.jsxs)(`div`,{className:`space-y-4 text-sm text-ivory/70`,children:[(0,B.jsx)(`p`,{children:`Your M-Pesa number has been copied. Complete the gift manually using your M-Pesa app or phone.`}),(0,B.jsxs)(`div`,{className:`\r
+                      rounded-2xl\r
+                      border\r
+                      border-white/10\r
+                      bg-black/20\r
+                      p-4\r
+                    `,children:[(0,B.jsxs)(`div`,{className:`mb-3 flex items-center justify-between`,children:[(0,B.jsx)(`span`,{className:`text-ivory/40`,children:`Send to`}),(0,B.jsx)(`span`,{className:`font-medium text-ivory`,children:`Sajaad Iqbal`})]}),(0,B.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,B.jsx)(`span`,{className:`text-ivory/40`,children:`Number`}),(0,B.jsx)(`span`,{className:`font-mono text-gold-light`,children:`0115 760 476`})]})]}),(0,B.jsxs)(`p`,{className:`leading-relaxed text-ivory/50`,children:[`Open`,` `,(0,B.jsx)(`span`,{className:`text-ivory/80`,children:`M-Pesa`}),` → `,(0,B.jsx)(`span`,{className:`text-ivory/80`,children:`Send Money`}),` → `,`enter the number above, then enter your gift amount.`]})]}),(0,B.jsxs)(`button`,{type:`button`,onClick:m,className:`\r
+                    mt-7\r
+                    flex\r
+                    w-full\r
+                    items-center\r
+                    justify-center\r
+                    gap-2\r
+                    rounded-full\r
+                    bg-gold\r
+                    px-6\r
+                    py-3.5\r
+                    text-sm\r
+                    font-semibold\r
+                    text-charcoal\r
+                    transition-all\r
+                    duration-300\r
+                    hover:bg-gold-light\r
+                  `,children:[(0,B.jsx)(Gu,{size:16}),`I've sent my gift`]}),(0,B.jsx)(`button`,{type:`button`,onClick:()=>l(!1),className:`\r
+                    mt-3\r
+                    w-full\r
+                    py-2\r
+                    text-xs\r
+                    text-ivory/40\r
+                    transition-colors\r
+                    hover:text-ivory/70\r
+                  `,children:`I'll do it later`})]})]})})})]})}function wd({src:e,alt:t,index:n}){let[r,i]=(0,_.useState)(!1);return(0,B.jsxs)(U.figure,{initial:{opacity:0,y:18},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.3},transition:{duration:.6,delay:n%3*.08,ease:[.22,1,.36,1]},className:`group relative overflow-hidden bg-charcoal-soft ${n%5==0?`sm:row-span-2`:``}`,children:[(0,B.jsx)(`div`,{className:`w-full ${n%5==0?`aspect-[3/4] sm:h-full`:`aspect-[4/3]`}`,children:r?(0,B.jsxs)(`div`,{className:`flex h-full w-full flex-col items-center justify-center gap-2 border border-gold/15 text-gold/40`,children:[(0,B.jsx)($u,{size:26,strokeWidth:1}),(0,B.jsx)(`span`,{className:`text-xs text-stone-light`,children:`Photo coming soon`})]}):(0,B.jsx)(`img`,{src:cd(e),alt:t,loading:`lazy`,decoding:`async`,onError:()=>i(!0),className:`h-full w-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105`})}),(0,B.jsx)(`div`,{className:`pointer-events-none absolute inset-0 bg-gradient-to-t from-charcoal-deep/70 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100`})]})}function Td(){return(0,B.jsx)(`section`,{className:`bg-charcoal py-24 sm:py-28`,children:(0,B.jsxs)(`div`,{className:`container-narrow`,children:[(0,B.jsxs)(U.div,{initial:{opacity:0,y:16},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.4},transition:{duration:.7},className:`mb-14 text-center`,children:[(0,B.jsx)(`p`,{className:`eyebrow`,children:`A few frames`}),(0,B.jsx)(`h2`,{className:`mt-4 font-display text-3xl font-medium text-ivory sm:text-4xl`,children:`Gallery`})]}),(0,B.jsx)(`div`,{className:`grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4`,children:X.gallery.map((e,t)=>(0,B.jsx)(wd,{src:e.src,alt:e.alt,index:t},e.src))})]})})}var Ed=`254115760476`;function Dd(){let[e,t]=(0,_.useState)(null),n=e=>{t(e);let n=e===`yes`?`Hi Sajaad! I'll be joining you for your graduation celebration on ${X.dateDisplay}. Looking forward to celebrating with you! 🎓`:`Hi Sajaad, thank you for the invitation. Unfortunately, I won't be able to attend your graduation celebration. Congratulations! 🎓`,r=`https://wa.me/${Ed}?text=${encodeURIComponent(n)}`;window.open(r,`_blank`,`noopener,noreferrer`)};return(0,B.jsxs)(`section`,{className:`relative overflow-hidden bg-charcoal-soft py-24 sm:py-32 md:py-40`,children:[(0,B.jsx)(`div`,{className:`
           pointer-events-none
           absolute
           left-1/2
