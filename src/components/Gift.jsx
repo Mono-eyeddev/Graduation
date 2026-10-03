@@ -228,14 +228,14 @@ export default function Gift() {
                 </p>
 
                 <p className="mt-3 font-display text-2xl text-ivory">
-                  Sajaad Iqbal
+                 xoxo
                 </p>
               </div>
 
               {/* Number */}
               <div className="mt-4">
                 <p className="font-display text-3xl tracking-[0.08em] text-gold-light sm:text-4xl">
-                  0115 760 476
+                  0729481226 
                 </p>
               </div>
 
